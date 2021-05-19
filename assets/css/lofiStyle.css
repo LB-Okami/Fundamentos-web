@@ -39,11 +39,19 @@ ul > li  > a{
 /* Body */
 
 .descricao {
+    display: flex;
     max-width: 47%;
+    flex-flow: row wrap;
+
+    margin-left: 1.2rem;
+    margin-bottom: 2rem;
+
+    padding: 0.2rem;
 }
 
 .descricao > p {
-    font-size: 17px;
+    font-size: 21px;
+    font-weight: 300;
 }
 
 body {
@@ -61,6 +69,7 @@ body {
     margin-top: 4rem;
     display: flex;
     justify-content: center;
+    font-size:27px;
 }
 
 #video {

@@ -61,14 +61,13 @@ a:hover {
 .descricao {
     display: flex;
     max-width: 70rem;
-    padding: 0.7rem;
-    margin-left: 20rem;
-    border: solid 3px black;
+    padding: 1rem;
 }
 
 #reiner {
     display: flex;
     align-items: flex-end;
+    margin-right: -5rem;
 }
 
 
@@ -79,14 +78,22 @@ a:hover {
     margin-left: 14rem;
 }
 
+.borda {
+    border: 3px solid black;
+    max-width: 1200px;
+    margin-left: 18rem;
+}
+
 #braun {
     display: flex;
     justify-content: flex-end;
-    margin-right: 35rem;
+    margin-right: 8rem;
     margin-bottom: 0.8rem;
 }
 
 #textos {
+    display: flex;
+    align-items: center;
     margin-right: 2rem;
 }
 
