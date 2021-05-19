@@ -8,6 +8,8 @@
 
 * {
     font-family: 'Pattaya', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 html {
@@ -40,6 +42,7 @@ ul > li  > a{
 
 .descricao {
     display: flex;
+
     max-width: 47%;
     flex-flow: row wrap;
 
@@ -69,7 +72,7 @@ body {
     margin-top: 4rem;
     display: flex;
     justify-content: center;
-    font-size:27px;
+    font-size: 2rem;
 }
 
 #video {
@@ -81,5 +84,28 @@ body {
 .videoDecoration {
     border: solid 5px var(--salmon);
     border-radius: 8px;
+    margin-bottom: 30rem;
 }
 
+/* Footer */
+#footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 2rem;
+    margin-right: 2rem;
+    margin-top: 1.2rem;
+}
+
+footer > p {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 2rem;
+    border: 2px solid black;
+}
