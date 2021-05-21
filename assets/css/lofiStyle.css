@@ -92,7 +92,6 @@ ul > li  > a{
     font-size: large;
     color: var(--black);
     margin-right: 2rem;
-    
 }
 
 #botao {
@@ -106,6 +105,7 @@ ul > li  > a{
 
 body {
     color: var(--black);
+    transition: 1s;
 }
 
 .descricao {
